@@ -28,7 +28,7 @@ public int add(int num1, int num2){
    
 표현식(Expression) : 변수를 웹브라우저상에 출력할 경우 사용
    JS의 document.write()와 동일한 역할
-   표현식 ㅅ하용시 주의할 점은 문장 끝에 ;(세미콜론) 미사용
+   표현식 사용시 주의할 점은 문장 끝에 ;(세미콜론) 미사용
 -->
 <%
 int result = add(10,20);

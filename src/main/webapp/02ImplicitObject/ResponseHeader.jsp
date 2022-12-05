@@ -24,7 +24,7 @@ String add_str = request.getParameter("add_str");
 
 /* 
 addDateHeader(헤더명, long타입의 타임스탬프)
-	: 응답헤더에 날짜형식을 추가하 경우 long타입의 타임스탬프로
+	: 응답헤더에 날짜형식을 추가하는 경우 long타입의 타임스탬프로
 	변환한 후 추가해야 한다.
 */
 //날짜형식의 응답헤더 추가
@@ -58,7 +58,6 @@ response.setHeader("myName", "안중근");
     처음 입력한 헤더값만 출력되게 한다.
     */
     %>
-    
     <h2>myNumber만 출력하기</h2>
     <%
     /* 
