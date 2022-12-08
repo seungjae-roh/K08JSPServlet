@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Page 영</title>
+<title>Page 영역</title>
 </head>
 <body>
 	<h2>이동 후 page 영역의 속성값 읽기</h2>
