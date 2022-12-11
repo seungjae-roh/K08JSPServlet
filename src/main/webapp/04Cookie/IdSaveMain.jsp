@@ -6,7 +6,7 @@
 //페이지가 실행되면 loginId라는 쿠키를 읽어온다.
 String loginId = CookieManager.readCookie(request, "loginId");
 
-//'아이디저장' 체크박스에 체크를 하기 윈한 변수 생
+//'아이디저장' 체크박스에 체크를 하기 윈한 변수 생성
 String cookieCheck = "";
 /* 
 앞에서 읽은 쿠키값이 있다면 체크박스에 checked속성을 부여하기 위해

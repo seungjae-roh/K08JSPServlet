@@ -41,7 +41,7 @@ dao.close();
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>회원제 게시판</title>
 </head>
 <body>
     <jsp:include page="../Common/Link.jsp" />  
@@ -99,7 +99,8 @@ else {
             <td><%= virtualNum %></td>
             <!-- 제목 -->  
             <td align="left"> 
-                <a href="View.jsp?num=<%= dto.getNum() %>"><%= dto.getTitle() %></a> 
+                <a href="View.jsp?num=<%= dto.getNum() %>">
+                	<%= dto.getTitle() %></a> 
             </td>
             <!-- 작성자 아이디 -->
             <td align="center"><%= dto.getId() %></td>

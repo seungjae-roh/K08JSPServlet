@@ -1,7 +1,7 @@
-package model1.board;
+package homework;
 
 public class BoardDTO {
-	//멤버변수 선언: board테이블에 생성된 컬럼과 동일함.
+
 	private String num;
 	private String title;
 	private String content;
@@ -9,13 +9,9 @@ public class BoardDTO {
 	private java.sql.Date postdate;
 	private String visitcount;
 	
-	//member테이블과의 join을 통해 회원 이름을 출력해야 할 때를
-	//위해 멤버변수를 추가한다.
 	private String name;
 	
-	//특별한 이유가 없다면 생성자는 없어도 된다.
 	
-	//게터&세터
 	public String getNum() {
 		return num;
 	}
