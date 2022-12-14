@@ -29,7 +29,8 @@ pageContext.setAttribute("num4", "8");
 	 -->
 	변수 할당 및 즉시 출력: ${ num1 = 7 } <br>
 	변수 할당 및 별도 출력: ${ num2 = 8;'' } => ${ num2 } <br>
-	num1 = ${ num1 }, num2 = ${ num2 }, num3 = ${ num3 }, num4 = ${ num4 } 
+	num1 = ${ num1 }, num2 = ${ num2 }, num3 = ${ num3 }, num4 = ${ num4 }
+	
 	
 	<h3>산술 연산자</h3>
 	num1 + num2: ${ num1 + num2 } <br>
@@ -47,7 +48,7 @@ pageContext.setAttribute("num4", "8");
 	<h3>+ 연산자는 덧셈만 가능</h3>
 	num1 + "34": ${ num1 + "34" } <br>
 	<!-- 하지만 숫자와 문자열 혹은 문자열과 문자열의 경우에는 연산이
-	불가능하므로 에외가 발생한다.  -->
+	불가능하므로 예외가 발생한다.  -->
 	num2 + "이십": \${ num2 + "이십" } <br>
 	"삼십" + "사십": \${ "삼십" + "사십" }
 	

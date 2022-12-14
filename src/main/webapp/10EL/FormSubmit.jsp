@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>표현 언어(EL) - 폼값 처리</title>
 </head>
 <body>
     <h2>폼값 전송하기</h2>
@@ -23,7 +23,7 @@
        	<!-- 
        	윗쪽 부분은 단일값만 전송된다.
        	아래부분은 2개 이상의 값이 전송된다.
-       	 -->
+       	-->
         
         관심 사항 : 
             <input type="checkbox" name="inter" value="pol" />정치

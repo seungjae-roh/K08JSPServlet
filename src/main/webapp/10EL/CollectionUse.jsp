@@ -31,14 +31,14 @@
 	<ul>
 		<!-- String객체가 출력된다. ArrayList는 배열의 특성을 가지고 있으므로
 		인덱스로 접근할 수 있다. -->
-		<li>0번째 요쇼: ${ Ocean[0] }</li>
+		<li>0번째 요소: ${ Ocean[0] }</li>
 		<!-- Person객체를 출력한다. 멤버변수명을 통해 getter()를 호출하여
 		출력한다. 만약 Person클래스에 getter()가 정의되지 않으면
 		PropertyNotFoundException이 발생하게 된다. -->
-		<li>1번째 요쇼: ${ Ocean[1].name }, ${ Ocean[1].age }</li>
+		<li>1번째 요소: ${ Ocean[1].name }, ${ Ocean[1].age }</li>
 		<!-- 2번 인덱스에는 아무런 값도 없으므로 출력되지 않는다. Java코드라면
 		예외가 발생하겠지만 EL에서는 기본적인 예외는 발생하지 않는다. -->
-		<li>2번째 요쇼: ${ Ocean[2] }</li>
+		<li>2번째 요소: ${ Ocean[2] }</li>
 	</ul>
 	
 	<h2>Map 컬렉션</h2>
