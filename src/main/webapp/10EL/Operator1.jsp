@@ -1,3 +1,4 @@
+<%@page import="org.apache.tomcat.util.http.fileupload.RequestContext"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <%
@@ -7,6 +8,7 @@ int num1 = 3;
 pageContext.setAttribute("num2", 4);
 pageContext.setAttribute("num3", "5");
 pageContext.setAttribute("num4", "8");
+request.setAttribute("num5", 10);
 %>
 <!DOCTYPE html>
 <html>
@@ -29,7 +31,8 @@ pageContext.setAttribute("num4", "8");
 	 -->
 	변수 할당 및 즉시 출력: ${ num1 = 7 } <br>
 	변수 할당 및 별도 출력: ${ num2 = 8;'' } => ${ num2 } <br>
-	num1 = ${ num1 }, num2 = ${ num2 }, num3 = ${ num3 }, num4 = ${ num4 }
+	num1 = ${ num1 }, num2 = ${ num2 }, num3 = ${ num3 }, num4 = ${ num4 } <br />
+	num5 = ${ num5 }
 	
 	
 	<h3>산술 연산자</h3>

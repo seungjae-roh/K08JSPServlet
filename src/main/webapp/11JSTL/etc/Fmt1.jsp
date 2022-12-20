@@ -55,7 +55,7 @@
 		해당 속성값으로 
 			000,000.00 사용시 정상
 			0,0.0 사용시 정상
-			,. 사용시 에러발
+			,. 사용시 에러발생
 	 -->
 	<fmt:parseNumber value="${ number2 }" pattern="00,000.00" var="printNum3"/>
 	소수점까지 : ${ printNum3 } <br />
